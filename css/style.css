@@ -1,0 +1,60 @@
+.box{
+	width: 100px;
+	height: 100px;
+	margin-bottom: 10px;
+	text-align: center;
+	background-color: teal;
+	position: relative;
+	animation-name: test1;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+.box2{
+	width: 100px;
+	height: 100px;
+	margin-bottom: 10px;
+	text-align: center;
+	background-color: teal;
+	position: relative;
+	animation-name: test2;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+.box3{
+	width: 100px;
+	height: 100px;
+	margin-bottom: 10px;
+	text-align: center;
+	background-color: teal;
+	position: relative;
+	/*animation-name: test3;
+	animation-duration: 5s;*/                   
+	animation: test3 5s reverse linear;
+	animation-iteration-count: infinite;
+}
+
+@keyframes test1{
+	0%{background-color: teal; left: 0px; top: 0px;}
+	25%{background-color: red; left: 300px; top: 0px;}
+	50%{background-color: yellow; left: 300px; top: 300px;}
+	75%{background-color: green; left: 300px; top: 300px;}
+	100%{background-color: blue; left: 0px; top: 300px;}
+}
+
+@keyframes test2{
+	0%{background-color: teal; left: 0px; top: 0px;}
+	25%{background-color: red; left: 300px; top: 0px;}
+	50%{background-color: yellow; left: 300px; top: 300px;}
+	75%{background-color: green; left: 300px; top: 300px;}
+	100%{background-color: blue; left: 0px; top: 300px;}
+}
+
+@keyframes test3{
+	0%{background-color: teal; left: 0px; top: 0px;}
+	25%{background-color: red; left: 300px; top: 0px;}
+	50%{background-color: yellow; left: 300px; top: 300px;}
+	75%{background-color: green; left: 300px; top: 300px;}
+	100%{background-color: blue; left: 0px; top: 300px;}
+}
